@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pneContainer" prefHeight="485.0" prefWidth="958.0" style="-fx-background-color: #8efee7;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MenuFormController">
+   <children>
+      <Label layoutX="431.0" layoutY="15.0" prefHeight="49.0" prefWidth="94.0" text="Menu">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Label>
+      <Separator layoutX="-1.0" layoutY="63.0" prefHeight="1.0" prefWidth="958.0" />
+      <JFXButton layoutX="250.0" layoutY="108.0" onAction="#MemberOnAction" prefHeight="58.0" prefWidth="457.0" style="-fx-background-radius: 30; -fx-border-color: black; -fx-border-radius: 30;" stylesheets="@../Style/Style.css" text="Manage Members">
+         <font>
+            <Font name="System Bold Italic" size="27.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="250.0" layoutY="205.0" onAction="#BookOnAction" prefHeight="58.0" prefWidth="457.0" style="-fx-background-radius: 30; -fx-border-color: black; -fx-border-radius: 30;" stylesheets="@../Style/Style.css" text="Manage Books">
+         <font>
+            <Font name="System Bold Italic" size="27.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="250.0" layoutY="301.0" onAction="#IssueOnAction" prefHeight="58.0" prefWidth="457.0" style="-fx-background-radius: 30; -fx-border-color: black; -fx-border-radius: 30;" stylesheets="@../Style/Style.css" text="Manage Issues">
+         <font>
+            <Font name="System Bold Italic" size="27.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="250.0" layoutY="396.0" onAction="#RetunOnAction" prefHeight="58.0" prefWidth="457.0" style="-fx-background-radius: 30; -fx-border-color: black; -fx-border-radius: 30;" stylesheets="@../Style/Style.css" text="Manage Returns">
+         <font>
+            <Font name="System Bold Italic" size="27.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

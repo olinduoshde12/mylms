@@ -1,0 +1,53 @@
+.text-input
+{
+    -fx-text-fill : #ffff;
+}
+.button:hover{
+    -fx-background-color: #fcf94f;
+    -fx-border-color: WHITE;
+    -fx-border-width: 0px 0px 0px 3px;
+    -fx-text-fill: #272C39;
+}
+
+.button_back:hover{
+    -fx-background-color: #FF1028;
+    -fx-border-color: WHITE;
+    -fx-border-width: 0px 0px 0px 3px;
+    -fx-text-fill: #ffff;
+}
+
+.tool-bar{
+    -fx-border-color: #05D200;
+    -fx-border-width: 0px 0px 5px 0px;
+}
+
+.panel-top{
+    -fx-border-color: #05D200;
+    -fx-border-width: 5px 0px 0px 0px;
+}
+
+.panel{
+    -fx-background-color:  #FFFFFF;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+}
+
+.txt{
+//-fx-border-color: #FF1028;
+//-fx-border-width: 1px 1px 1px 1px;
+    -fx-text-fill : #FF1028;
+}
+
+.pane{
+    -fx-background-color: #FFE335;
+    -fx-border-color: #272C39;
+    -fx-border-width: 5px 0px 5px 0px;
+}
+
+.text_2-input
+{
+    -fx-text-fill : #272C39;
+}
+
+
+

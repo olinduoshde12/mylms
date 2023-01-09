@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pneContainer" prefHeight="485.0" prefWidth="958.0" style="-fx-background-color: #8efee7;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddmemberController">
+   <children>
+      <JFXTextField fx:id="txtName" focusColor="BLACK" labelFloat="true" layoutX="26.0" layoutY="117.0" prefHeight="31.0" prefWidth="295.0" promptText="Member_Name" unFocusColor="BLACK">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtContact" labelFloat="true" layoutX="676.0" layoutY="117.0" prefHeight="31.0" prefWidth="262.0" promptText="Contact">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtAddress" labelFloat="true" layoutX="354.0" layoutY="117.0" prefHeight="31.0" prefWidth="295.0" promptText="Member_Address">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXTextField>
+      <Label layoutX="26.0" layoutY="35.0" text="Next Member_Id">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tbl1" layoutX="9.0" layoutY="251.0" prefHeight="226.0" prefWidth="940.0">
+        <columns>
+          <TableColumn fx:id="colId" prefWidth="207.0" text="Member_id" />
+          <TableColumn fx:id="colName" prefWidth="241.0" text="Member_Name" />
+            <TableColumn fx:id="colAddress" prefWidth="238.0" text="Member_Address" />
+            <TableColumn fx:id="colContact" prefWidth="229.0" text="Contact" />
+        </columns>
+      </TableView>
+      <JFXButton layoutX="151.0" layoutY="190.0" onAction="#AddOnAction" prefHeight="44.0" prefWidth="99.0" style="-fx-background-radius: 25; -fx-border-color: blue; -fx-border-radius: 25;" text="Add">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="309.0" layoutY="190.0" style="-fx-background-radius: 25; -fx-border-color: green; -fx-border-radius: 25;" text="Update">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="468.0" layoutY="190.0" onAction="#DeleteOnAction" prefHeight="44.0" prefWidth="89.0" style="-fx-border-color: red; -fx-background-radius: 25; -fx-border-radius: 25;" text="Delete">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="738.0" layoutY="190.0" onAction="#BackOnAction" prefHeight="44.0" prefWidth="89.0" style="-fx-border-color: red; -fx-background-radius: 25; -fx-border-radius: 25;" text="Back">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="lbl1" layoutX="208.0" layoutY="32.0" prefHeight="38.0" prefWidth="163.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="605.0" layoutY="190.0" onAction="#ViewOnAction" prefHeight="44.0" prefWidth="89.0" style="-fx-border-color: orange; -fx-background-radius: 25; -fx-border-radius: 25;" text="View">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="lbl3" layoutX="570.0" layoutY="35.0" text="Select Member_Id">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl2" layoutX="756.0" layoutY="32.0" prefHeight="38.0" prefWidth="171.0">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

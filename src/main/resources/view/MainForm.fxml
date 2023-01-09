@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="476.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainFormController">
+   <children>
+      <ImageView fitHeight="497.0" fitWidth="851.0" layoutX="-21.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/1733.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="167.0" layoutY="58.0" prefHeight="50.0" prefWidth="463.0" text="Libary Management System" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblloading" layoutX="14.0" layoutY="422.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="rctContainer" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="21.0" layoutX="15.0" layoutY="444.0" stroke="BLACK" strokeType="INSIDE" width="801.0" />
+      <Rectangle fx:id="rstLoading" arcHeight="5.0" arcWidth="5.0" fill="#17d04c" height="21.0" layoutX="15.0" layoutY="444.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+      <ImageView fitHeight="41.0" fitWidth="68.0" layoutX="725.0" layoutY="296.0">
+         <image>
+            <Image url="@../assests/1-1200x720.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
